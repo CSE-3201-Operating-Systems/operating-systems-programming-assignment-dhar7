@@ -26,5 +26,6 @@ void *runner(void *param)
        {
           array[i+1] = array[i] + array[i-1];
        }
+    pthread_exit(0);
        
 }
